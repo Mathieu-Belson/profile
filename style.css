@@ -1,116 +1,111 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Open+Sans&family=Pacifico&display=swap');
 
-#profile-pic{
+#profile-pic {
   width: 130px;
   height: 130px;
-  border-radius: 50%
+  border-radius: 50%;
 }
-.btn-link{
+
+.btn-link {
   background-color: #EB455F;
-    color: white;
-  border-radius: 2px;
+  color: white;
+  border-radius: 3px;
   padding: 3px;
 }
 
-body{
+body {
   background-color: #7C96AB;
-  }
-.card{
+}
+
+.card {
   padding: 40px;
-  /* width: 700px; */
   border-radius: 20px;
   border: 1px solid #8CC0DE;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  background-color: #FDF4F5;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
-.card_follow_me{
+
+.card_follow_me {
   padding: 10px;
-  /* width: 600px; */
   margin: 15px auto;
   border-radius: 20px;
   border: 1px solid #8CC0DE;
-  background-color: #FDF4F5;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-h1{
+h1, h2, h3 {
   font-family: 'Edu TAS Beginner', cursive;
+  color: #304d89;
+}
+
+h1 {
   font-size: 36px;
   text-align: left;
-  color: #434242
 }
-h2{
-  font-family: 'Edu TAS Beginner', cursive;
+
+h2 {
   font-size: 26px;
-  color: #434242
 }
-h3{
-  font-family: 'Edu TAS Beginner', cursive;
+
+h3 {
   font-size: 16px;
   text-align: center;
-  color: #434242
 }
-p{
+
+p, a {
   font-family: 'Open Sans', sans-serif;
+}
+
+p {
   text-align: left;
   font-size: 12px;
-
 }
-a{
+
+a {
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
   color: #7C96AB;
- }
-a:hover{
-  color: black;
-  transition: 0.3s;
 }
-li > a:hover{
+
+a:hover, li > a:hover {
   color: black;
   transition: 0.3s;
 }
 
-.inline{
+.inline {
   text-align: center;
   list-style: none;
   padding: 0;
-  }
+}
 
-.inline li{
+.inline li {
   display: inline;
 }
-.container{
+
+.container {
   margin: 15px auto;
   width: 800px;
-
 }
+
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
-  .card_follow_me{
+  .card_follow_me {
     width: 300px;
   }
 }
 
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
-   }
-  .card_follow_me{
+  }
+  .card_follow_me {
     width: 200px;
   }
 }
 
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
